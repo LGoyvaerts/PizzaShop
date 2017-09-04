@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bestellung erfassen</title>
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Order erfassen</h2>
+<div>
+    <form method="post">
+        <label>Pizza:
+            <select name="pizzaList">
+            <#list pizzas as pizza>
+                <option>${pizza.name}</option>
+            </#list>
+            </select>
+        </label>
+        Anzahl:
+        <input type="text" name="anzahl">
+        <br>
+
+        Name:
+        <input type="text" name="name">
+        Vorname:
+        <input type="text" name="vorname">
+
+        <br>
+        Strasse:
+        <input type="text" name="strasse">
+        Nr.:
+        <input type="text" name="nummer">
+
+        <br>
+        PLZ, Ort:
+        <input type="text" name="ort">
+        Tel:
+        <input type="text" name="telefon">
+        <br>
+        <input type="submit" style="float: right">
+    </form>
+</div>
+</body>
+</html>

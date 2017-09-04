@@ -1,0 +1,15 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza gelöscht</title>
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Pizza deletet</h2>
+<p>Pizza wurde gelöscht!</p>
+<a href="/">Übersicht</a>
+</body>
+</html>

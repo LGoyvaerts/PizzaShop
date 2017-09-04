@@ -1,0 +1,15 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bestellung gelöscht</title>
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Order deletet</h2>
+<p>Bestellung wurde gelöscht!</p>
+<a href="/">Übersicht</a>
+</body>
+</html>

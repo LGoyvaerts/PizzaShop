@@ -1,0 +1,7 @@
+Welcome to template processing!
+
+<ul>pizzas
+    <#list pizzas as pizza>
+        <li>${pizza}</li>
+    </#list>
+</ul>

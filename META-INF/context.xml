@@ -1,0 +1,9 @@
+<Context>
+
+  <Resource name="jdbc/pizzakurier" auth="Container" type="javax.sql.DataSource"
+               maxActive="50" maxIdle="30" maxWait="10000"
+               username="lorris" password="L2o0g0o1"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/pizzakurier"/>
+
+</Context>

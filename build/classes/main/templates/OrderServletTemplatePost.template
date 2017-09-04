@@ -1,0 +1,16 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bestellung erfasst</title>
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Order</h2>
+<p>Bestellung wurde erfolgreich erfasst!</p>
+
+<a href="/">Bestellübersicht</a>
+</body>
+</html>
