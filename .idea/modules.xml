@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PizzaShop.iml" filepath="$PROJECT_DIR$/PizzaShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_main.iml" group="ch.ti8m.iptiQ.aws.waf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_test.iml" group="ch.ti8m.iptiQ.aws.waf" />
+    </modules>
+  </component>
+</project>
