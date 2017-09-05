@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bestellübersicht</title>
+
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Bestellübersicht</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Pizza</th>
+        <th>Anzahl</th>
+        <th>Name</th>
+        <th>Vorname</th>
+        <th>Strasse</th>
+        <th>Nummer</th>
+        <th>Ort</th>
+        <th>Tel</th>
+    </tr>
+    <#list bestellungen as bestellung>
+    <tr>
+        <td>${bestellung.id}</td>
+        <td>${bestellung.pizza}</td>
+        <td>${bestellung.anzahl}</td>
+        <td>${bestellung.name}</td>
+        <td>${bestellung.vorname}</td>
+        <td>${bestellung.strasse}</td>
+        <td>${bestellung.nummer}</td>
+        <td>${bestellung.ort}</td>
+        <td>${bestellung.tel}</td>
+    </tr>
+    </#list>
+</table>
+
+<h2 align="center">Delete Order</h2>
+<div>
+    <form method="post">
+        Bestellnummer:
+        <input type="text" name="nummer">
+        <br>
+        <input type="submit" style="float: right">
+    </form>
+</div>
+
+</body>
+</html>

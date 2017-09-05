@@ -1,0 +1,16 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza erfasst</title>
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Pizzen verwalten</h2>
+
+<p>Pizza wurde erfolgreich erfasst!</p>
+<a href="pizza">Pizzen im Überblick</a>
+</body>
+</html>

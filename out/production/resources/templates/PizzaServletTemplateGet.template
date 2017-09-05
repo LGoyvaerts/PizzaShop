@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza erfassen</title>
+<#include "Head.template">
+</head>
+<body>
+<#include "Nav.template">
+
+<h2>Pizza erfassen</h2>
+<div>
+    <form method="post">
+        Name:
+        <input type="text" name="name">
+        Preis:
+        <input type="text" name="preis">
+        <br>
+        <input type="submit" style="float: right">
+    </form>
+</div>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Preis</th>
+    </tr>
+
+<#list pizzas as pizza>
+    <tr>
+        <td>${pizza.id}</td>
+        <td>${pizza.name}</td>
+        <td>${pizza.price}</td>
+    </tr>
+</#list>
+</table>
+
+<h2 align="center">Delete Pizza</h2>
+<div>
+    <form method="post">
+        Bestellnummer:
+        <input type="text" name="nummer">
+        <br>
+        <input type="submit" style="float: right">
+    </form>
+</div>
+
+</body>
+</html>

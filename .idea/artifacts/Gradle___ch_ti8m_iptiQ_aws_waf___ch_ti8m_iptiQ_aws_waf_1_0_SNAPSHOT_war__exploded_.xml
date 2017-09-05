@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/build/libs/exploded/ch.ti8m.iptiQ.aws.waf-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$">
-        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsZC1EYXRlOiAyMDE3LTA3LTI2IDE0OjUzOjE0DQpOYW1lOiBjaC50aThtLmlwdGlRLmF3cy53YWYNClZlcnNpb246IDEuMC1TTkFQU0hPVA0KDQo=</manifest>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsZC1EYXRlOiAyMDE3LTA5LTA1IDEyOjA4OjE4DQpOYW1lOiBjaC50aThtLmlwdGlRLmF3cy53YWYNClZlcnNpb246IDEuMC1TTkFQU0hPVA0KDQo=</manifest>
       </options>
     </properties>
     <root id="root">
@@ -14,11 +14,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ch.ti8m.iptiQ.aws.waf_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/build/classes/main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.14" />
-          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.5" />
           <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" />
           <element id="library" level="project" name="Gradle: org.glassfish:javax.json:1.0.4" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet:2.25" />
@@ -51,6 +50,7 @@
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.5" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.44/61b6b998192c85bb581c6be90e03dcd4b9079db4/mysql-connector-java-5.1.44.jar" />
         </element>
       </element>
     </root>
