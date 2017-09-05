@@ -1,7 +1,3 @@
-import ch.ti8m.iptiQ.aws.waf.PizzaDAO;
-import ch.ti8m.iptiQ.aws.waf.model.Pizza;
-import org.junit.Test;
-
 /**
  * Created by gol on 07.06.2017.
  */

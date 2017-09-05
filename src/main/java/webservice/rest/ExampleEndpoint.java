@@ -1,8 +1,8 @@
 package webservice.rest;
 
-import ch.ti8m.iptiQ.aws.waf.PizzaDAO;
-import ch.ti8m.iptiQ.aws.waf.model.Bestellung;
-import ch.ti8m.iptiQ.aws.waf.model.Pizza;
+import ch.ti8m.apprentice.pizzashop.PizzaDAO;
+import ch.ti8m.apprentice.pizzashop.model.Bestellung;
+import ch.ti8m.apprentice.pizzashop.model.Pizza;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
