@@ -23,7 +23,7 @@ import java.util.List;
  */
 public class PizzaDAO {
 
-    Logger log = LoggerFactory.getLogger(PizzaDAO.class);
+   private static Logger log = LoggerFactory.getLogger(PizzaDAO.class);
 
     @Resource(name = "jdbc/pizzakurier")
     private DataSource ds;
@@ -38,11 +38,15 @@ public class PizzaDAO {
         }
     }
 
+    /**
+     * List all {@link Pizza}s in the database
+     * @return list of {@link Pizza}s
+     * @throws Exception ex when loading from the database failed
+     */
     public List<Pizza> getPizzas() throws Exception {
 
         try (Connection connection = ds.getConnection()) {
 
-            // create a statement
             try (Statement statement = connection.createStatement()) {
 
                 List<Pizza> pizzas = new LinkedList<>();
@@ -64,12 +68,16 @@ public class PizzaDAO {
         }
     }
 
-
+    /**
+     * List all {@link Bestellung}s in the database
+     * @return list of {@link Bestellung}s
+     * @throws Exception ex when loading from the database failed
+     */
     public List<Bestellung> getOrders() throws Exception {
 
         try (Connection connection = ds.getConnection()) {
             log.info("connection: {}", connection);
-            // create a statement
+
             try (Statement statement = connection.createStatement()) {
 
                 List<Bestellung> bestellungen = new LinkedList<>();
@@ -88,32 +96,30 @@ public class PizzaDAO {
         }
     }
 
-
+    /**
+     * Create new {@link Pizza} on the database
+     * @throws Exception ex when creating pizza failed
+     */
     public void createPizza(Pizza pizza) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
-            // create a statement
             try (Statement statement = connection.createStatement()) {
 
                 String sql = "insert into pizza (name, price) values ('" + pizza.getName() + "', " + pizza.getPrice() + " )";
-                System.out.println("SQL: " + sql);
+                log.debug("SQL: " + sql);
                 statement.executeUpdate(sql);
-
             }
         }
     }
 
-
+    /**
+     * Create new {@link Bestellung} on the database
+     * @throws Exception ex when creating order failed
+     */
     public void createOrder(Bestellung bestellung) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
-
-            // create a statement
             try (Statement statement = connection.createStatement()) {
 
                 String sql = "insert into ordering (pizza, anzahl, name, vorname, strasse, nummer, ort, tel) values ('" + bestellung.getPizza() + "', " + bestellung.getAnzahl() + ", '" + bestellung.getName() + "' , '" + bestellung.getVorname() + "', '" + bestellung.getStrasse() + "', '" + bestellung.getNummer() + "', '" + bestellung.getOrt() + "', '" + bestellung.getTel() + "')";
@@ -123,14 +129,15 @@ public class PizzaDAO {
         }
     }
 
-
+    /**
+     * Find {@link Pizza} in the database using its ID
+     * @return {@link Pizza} with matching ID
+     * @throws Exception ex when loading from the database failed
+     */
     public Pizza findById(int id) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
-            // create a statement
             try (Statement statement = connection.createStatement()) {
 
                 String sql = "select id, name, price from pizza where id=" + id + ";";
@@ -145,13 +152,15 @@ public class PizzaDAO {
         }
     }
 
+    /**
+     * Find {@link Pizza} in the database using its name
+     * @return {@link Pizza} with matching name
+     * @throws Exception ex when loading from the database failed
+     */
     public Pizza findByName(String name) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
-            // create a statement
             try (Statement statement = connection.createStatement()) {
 
                 String sql = "select id, name, price from pizza where name=" + name + ";";
@@ -168,42 +177,45 @@ public class PizzaDAO {
 
     }
 
+    /**
+     * Update {@link Pizza} in the database
+     * @throws Exception ex when updating database failed
+     */
     public void update(Pizza pizza) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
-            // create a statement
             try (Statement statement = connection.createStatement()) {
 
                 String sql = "update pizza set name='" + pizza.getName()
                         + "' where name='" + pizza.getName() + ";";
                 statement.executeUpdate(sql);
-
             }
         }
     }
 
+    /**
+     * Delete {@link Pizza} in the database
+     * @throws Exception ex when deleting database failed
+     */
     public void delete(Pizza pizza) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
             try (Statement statement = connection.createStatement()) {
 
                 String sql = "delete from pizza where name='" + pizza.getName() + ";";
                 ResultSet rs = statement.executeQuery(sql);
-
             }
         }
     }
 
+    /**
+     * Delete {@link Pizza} in the database using its ID
+     * @throws Exception ex when deleting {@link Pizza} from database failed
+     */
     public void deletePizzaById(int index) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
             try (Statement statement = connection.createStatement()) {
@@ -215,10 +227,12 @@ public class PizzaDAO {
         }
     }
 
+    /**
+     * Delete {@link Bestellung} in the database using its ID
+     * @throws Exception ex when deleting {@link Bestellung} from database failed
+     */
     public void deleteOrderById(int index) throws Exception {
 
-        // create a connection
-        // hint: try-with-resources (since Java 7)
         try (Connection connection = ds.getConnection()) {
 
             try (Statement statement = connection.createStatement()) {
@@ -229,6 +243,4 @@ public class PizzaDAO {
             }
         }
     }
-
-
 }

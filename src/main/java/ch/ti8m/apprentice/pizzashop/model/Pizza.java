@@ -20,6 +20,11 @@ public class Pizza {
     public Pizza() {
     }
 
+    /**
+     * Model to use when creating a {@link Pizza}
+     * @param name name of the {@link Pizza}
+     * @param price price of the {@link Pizza}
+     */
     public Pizza(String name, float price) {
         this.name = name;
         this.price = price;

@@ -15,6 +15,17 @@ public class Bestellung {
     private String ort;
     private String tel;
 
+    /**
+     * Model to use when creating a {@link Bestellung}
+     * @param pizza name of the pizza
+     * @param anzahl amount of {@link Pizza}s to order
+     * @param name surname of the customer
+     * @param vorname firstname of the customer
+     * @param strasse street of the customer
+     * @param nummer streetnumber of the customer
+     * @param ort livingplace of the customer
+     * @param tel phonenumber of the customer
+     */
     public Bestellung(String pizza, String anzahl, String name, String vorname, String strasse, String nummer, String ort, String tel) {
         this.pizza = pizza;
         this.anzahl = anzahl;
@@ -26,6 +37,18 @@ public class Bestellung {
         this.tel = tel;
     }
 
+    /**
+     *
+     * @param id id of the {@link Bestellung}
+     * @param pizza name of the pizza
+     * @param anzahl amount of pizzas to order
+     * @param name surname of the customer
+     * @param vorname firstname of the customer
+     * @param strasse street of the customer
+     * @param nummer streetnumber of the customer
+     * @param ort livingplace of the customer
+     * @param tel phonenumber of the customer
+     */
     public Bestellung(int id, String pizza, String anzahl, String name, String vorname, String strasse, String nummer, String ort, String tel) {
         this.id = id;
         this.pizza = pizza;

@@ -17,6 +17,14 @@ public final class TemplateUtil {
 
     }
 
+    /**
+     * Is needed to load the {@link Template}s
+     * @param response {@link HttpServletResponse}
+     * @param templateName name of the template
+     * @param dataModel datamodel for laoding
+     * @throws IOException ex when failed processing
+     * @throws TemplateException ex when failed processing
+     */
     public static void process(HttpServletResponse response, String templateName, Object dataModel) throws IOException, TemplateException{
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
