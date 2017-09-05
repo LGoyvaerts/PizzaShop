@@ -98,6 +98,7 @@ public class PizzaDAO {
 
     /**
      * Create new {@link Pizza} on the database
+     * @param pizza {@link Pizza} object
      * @throws Exception ex when creating pizza failed
      */
     public void createPizza(Pizza pizza) throws Exception {
@@ -113,8 +114,10 @@ public class PizzaDAO {
         }
     }
 
+
     /**
      * Create new {@link Bestellung} on the database
+     * @param bestellung {@link Bestellung} object
      * @throws Exception ex when creating order failed
      */
     public void createOrder(Bestellung bestellung) throws Exception {
@@ -124,7 +127,6 @@ public class PizzaDAO {
 
                 String sql = "insert into ordering (pizza, anzahl, name, vorname, strasse, nummer, ort, tel) values ('" + bestellung.getPizza() + "', " + bestellung.getAnzahl() + ", '" + bestellung.getName() + "' , '" + bestellung.getVorname() + "', '" + bestellung.getStrasse() + "', '" + bestellung.getNummer() + "', '" + bestellung.getOrt() + "', '" + bestellung.getTel() + "')";
                 statement.executeUpdate(sql);
-
             }
         }
     }
@@ -154,6 +156,7 @@ public class PizzaDAO {
 
     /**
      * Find {@link Pizza} in the database using its name
+     * @param name name of the {@link Pizza}
      * @return {@link Pizza} with matching name
      * @throws Exception ex when loading from the database failed
      */
@@ -179,6 +182,7 @@ public class PizzaDAO {
 
     /**
      * Update {@link Pizza} in the database
+     * @param pizza {@link Pizza} object
      * @throws Exception ex when updating database failed
      */
     public void update(Pizza pizza) throws Exception {
@@ -196,6 +200,7 @@ public class PizzaDAO {
 
     /**
      * Delete {@link Pizza} in the database
+     * @param pizza {@link Pizza} object
      * @throws Exception ex when deleting database failed
      */
     public void delete(Pizza pizza) throws Exception {
@@ -212,6 +217,7 @@ public class PizzaDAO {
 
     /**
      * Delete {@link Pizza} in the database using its ID
+     * @param index ID of the {@link Pizza}
      * @throws Exception ex when deleting {@link Pizza} from database failed
      */
     public void deletePizzaById(int index) throws Exception {
@@ -229,6 +235,7 @@ public class PizzaDAO {
 
     /**
      * Delete {@link Bestellung} in the database using its ID
+     * @param index ID of the {@link Bestellung}
      * @throws Exception ex when deleting {@link Bestellung} from database failed
      */
     public void deleteOrderById(int index) throws Exception {

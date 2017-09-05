@@ -19,7 +19,7 @@ import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by het on 27.03.2017.
+ * Created by gol on 05.09.2017.
  */
 @WebServlet(name = "PizzaServlet", urlPatterns = "/pizza")
 public class PizzaServlet extends HttpServlet {
@@ -61,7 +61,7 @@ public class PizzaServlet extends HttpServlet {
                 Map<String, Object> dataModel = new HashMap<>();
                 dataModel.put("bestellungen", dao.getOrders());
 
-                TemplateUtil.process(response, "DeletePizza.template", dataModel);
+                TemplateUtil.process(response, "PizzaDeletedServlet.template", dataModel);
             } catch (Exception e) {
                 e.getMessage();
             }

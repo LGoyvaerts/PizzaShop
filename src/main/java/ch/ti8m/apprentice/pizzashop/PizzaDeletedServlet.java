@@ -18,10 +18,10 @@ import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by het on 27.03.2017.
+ * Created by gol on 05.09.2017.
  */
-@WebServlet(name = "DeletePizza", urlPatterns = "/delete")
-public class DeletePizza extends HttpServlet {
+@WebServlet(name = "PizzaDeletedServlet", urlPatterns = "/delete")
+public class PizzaDeletedServlet extends HttpServlet {
     private final Logger log = LoggerFactory.getLogger(getClass());
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -33,7 +33,7 @@ public class DeletePizza extends HttpServlet {
             Map<String, Object> dataModel = new HashMap<>();
             dataModel.put("pizzas", dao.getPizzas());
 
-            TemplateUtil.process(response, "DeletePizza.template", dataModel);
+            TemplateUtil.process(response, "PizzaDeletedServlet.template", dataModel);
 
         } catch (Exception e) {
             e.printStackTrace();

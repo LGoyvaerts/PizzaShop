@@ -1,0 +1,5 @@
+ch.ti8m.apprentice.pizzashop
+ch.ti8m.apprentice.pizzashop.model
+ch.ti8m.apprentice.pizzashop.util
+webservice.rest
+webservice.rest.dto.converter
