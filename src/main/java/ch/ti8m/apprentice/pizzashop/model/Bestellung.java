@@ -16,6 +16,13 @@ public class Bestellung {
     private String tel;
 
     /**
+     * Default-Constructor
+     */
+    public Bestellung(){
+
+    }
+
+    /**
      * Model to use when creating a {@link Bestellung}
      * @param pizza name of the pizza
      * @param anzahl amount of {@link Pizza}s to order

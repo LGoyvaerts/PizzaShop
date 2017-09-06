@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Build-Date: 2017-09-05 16:48:19
-Name: ch.ti8m.iptiQ.aws.waf
+Build-Date: 2017-09-06 11:39:05
+Name: ch.ti8m.apprentice.pizzashop
 Version: 1.0-SNAPSHOT
 

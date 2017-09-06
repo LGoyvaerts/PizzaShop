@@ -61,7 +61,7 @@ public class PizzaServlet extends HttpServlet {
                 Map<String, Object> dataModel = new HashMap<>();
                 dataModel.put("bestellungen", dao.getOrders());
 
-                TemplateUtil.process(response, "PizzaDeletedServlet.template", dataModel);
+                TemplateUtil.process(response, "DeletePizza.template", dataModel);
             } catch (Exception e) {
                 e.getMessage();
             }

@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PizzaShop.iml" filepath="$PROJECT_DIR$/PizzaShop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_main.iml" group="ch.ti8m.iptiQ.aws.waf" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.iptiQ.aws.waf_test.iml" group="ch.ti8m.iptiQ.aws.waf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.apprentice.pizzashop.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.apprentice.pizzashop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.apprentice.pizzashop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.apprentice.pizzashop_main.iml" group="ch.ti8m.apprentice.pizzashop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch.ti8m.apprentice.pizzashop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ch.ti8m.apprentice.pizzashop_test.iml" group="ch.ti8m.apprentice.pizzashop" />
     </modules>
   </component>
 </project>
