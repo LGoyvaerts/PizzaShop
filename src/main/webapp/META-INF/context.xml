@@ -1,9 +1,11 @@
 <Context>
 
-  <Resource name="jdbc/pizzakurier" auth="Container" type="javax.sql.DataSource"
-               maxActive="50" maxIdle="30" maxWait="10000"
-               username="root" password="123456"
-               driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://localhost:3306/pizzakurier?useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
+
+<Resource name="jdbc/pizzakurier" auth="Container" type="javax.sql.DataSource"
+          maxActive="50" maxIdle="30" maxWait="10000"
+          username="root" password="L2o0g0o1_"
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/pizzakurier?useLegacyDatetimeCode=false&amp;serverTimezone=UTC"
+          factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"/>
 
 </Context>

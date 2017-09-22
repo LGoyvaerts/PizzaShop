@@ -1,13 +1,7 @@
 package ch.ti8m.apprentice.pizzashop.util;
 
-import freemarker.template.Configuration;
-import freemarker.template.Template;
-import freemarker.template.TemplateException;
-
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -17,11 +11,11 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public final class PrintRequest {
 
-    private PrintRequest(){
+    private PrintRequest() {
 
     }
 
-    static String extractPostRequestBody(HttpServletRequest request) {
+    private static String extractPostRequestBody(HttpServletRequest request) throws Exception{
         if ("POST".equalsIgnoreCase(request.getMethod())) {
             Scanner s = null;
             try {
@@ -36,10 +30,11 @@ public final class PrintRequest {
 
     /**
      * Prints out useful information about the actual {@link HttpServletRequest} on the Server
+     *
      * @param httpRequest is needed to execute
      * @throws Exception ex when printing out request failed
      */
-    public static void print(HttpServletRequest httpRequest) throws Exception{
+    public static void print(HttpServletRequest httpRequest) throws Exception {
         AtomicInteger requestCounter = new AtomicInteger();
         StringBuffer sb = new StringBuffer();
         sb.append("--------------------------\n");

@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/build/libs/exploded/ch.ti8m.iptiQ.aws.waf-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$">
-        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsZC1EYXRlOiAyMDE3LTA5LTA1IDE3OjE4OjAzDQpOYW1lOiBjaC50aThtLmFwcHJlbnRpY2UucGl6emFzaG9wDQpWZXJzaW9uOiAxLjAtU05BUFNIT1QNCg0K</manifest>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsZC1EYXRlOiAyMDE3LTA5LTE5IDA5OjM5OjU1DQpOYW1lOiBjaC50aThtLmFwcHJlbnRpY2UucGl6emFzaG9wDQpWZXJzaW9uOiAxLjAtU05BUFNIT1QNCg0K</manifest>
       </options>
     </properties>
     <root id="root">
@@ -19,14 +19,15 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.14" />
           <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.44" />
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-client:1.9.1" />
           <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" />
-          <element id="library" level="project" name="Gradle: org.glassfish:javax.json:1.0.4" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.5" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.5" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.22" />
           <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.22" />
           <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.22" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.8" />
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-core:1.9.1" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.5" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.8" />
           <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet:2.25" />
@@ -51,8 +52,7 @@
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.5" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.9.1/61bf6dc803ac6f3161d125ceb22d3500f26cd4d8/jersey-client-1.9.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.9.1/cf6c0f8b945081fca5f5eb7417d10d58cefd7035/jersey-core-1.9.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.1/6f8ce9246049c7af84926758aeea7bc24f5dd160/javax.json-1.1.jar" />
         </element>
       </element>
     </root>

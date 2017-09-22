@@ -14,7 +14,7 @@
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.44" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-client:1.9.1" level="project" />
     <orderEntry type="library" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish:javax.json:1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.22" level="project" />

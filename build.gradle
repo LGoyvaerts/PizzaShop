@@ -72,7 +72,7 @@ ext.libraries = [
         ],
         jaxrs      : [
                 "javax.ws.rs:javax.ws.rs-api:2.0.1",
-                "org.glassfish:javax.json:1.0.4",
+                "org.glassfish:javax.json:1.1",
                 "org.glassfish.jersey.containers:jersey-container-servlet:2.25",
                 "org.glassfish.jersey.media:jersey-media-json-jackson:2.25"
         ],
