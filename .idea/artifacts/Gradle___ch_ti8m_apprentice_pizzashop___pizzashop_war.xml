@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : ch.ti8m.apprentice.pizzashop : pizzashop.war">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="pizzashop.war">
+      <element id="artifact" artifact-name="Gradle : ch.ti8m.apprentice.pizzashop : pizzashop.war (exploded)" />
+    </root>
+  </artifact>
+</component>

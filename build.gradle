@@ -40,7 +40,7 @@ jar {
 }
 
 war {
-    archiveName 'ch.ti8m.iptiQ.aws.waf-1.0-SNAPSHOT.war'
+    archiveName 'pizzashop.war'
     manifest {
         attributes(
                 "Name": project.name,

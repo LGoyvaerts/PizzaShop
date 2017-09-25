@@ -11,7 +11,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="order">Bestellung erfassen</a></li>
                 <li><a href="pizza">Pizzen verwalten</a></li>
-                <li><a href="/">Übersicht</a></li>
+                <li><a href="/pizzashop">Übersicht</a></li>
             </ul>
         </div>
     </div>

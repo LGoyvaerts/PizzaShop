@@ -11,6 +11,6 @@
 <h2>Order</h2>
 <p>Bestellung wurde erfolgreich erfasst!</p>
 
-<a href="/">Bestellübersicht</a>
+<a href="/pizzashop">Bestellübersicht</a>
 </body>
 </html>

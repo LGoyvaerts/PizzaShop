@@ -19,7 +19,7 @@ import java.util.*;
  * Pizza JAX-RS rest web service
  */
 @RequestScoped
-@Path("/example")
+@Path("/rest")
 public class PizzaEndpoint {
     private final Logger log = LoggerFactory.getLogger(getClass());
 
