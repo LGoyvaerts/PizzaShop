@@ -12,12 +12,12 @@ import java.util.List;
 import java.util.Random;
 
 
-public class JerseyClientGet {
+public class JerseyClient {
 
     public static void main(String[] args) {
         for (int i = 0; i < 30; i++) {
             Random random = new Random();
-            JerseyClientGet client = new JerseyClientGet();
+            JerseyClient client = new JerseyClient();
             String pizza = "NewPizza" + random.nextInt(1000) + 1;
             float price = random.nextFloat() * 25.0f + 15.0f;
 
