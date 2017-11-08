@@ -3,14 +3,17 @@ package webservice.rest;
 import ch.ti8m.apprentice.pizzashop.PizzaDAO;
 import ch.ti8m.apprentice.pizzashop.model.Bestellung;
 import ch.ti8m.apprentice.pizzashop.model.Pizza;
+import ch.ti8m.apprentice.pizzashop.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.enterprise.context.RequestScoped;
+import javax.print.attribute.standard.Media;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import java.net.Inet4Address;
 import java.text.Collator;
 import java.util.*;
@@ -25,6 +28,7 @@ public class PizzaEndpoint {
 
     /**
      * List {@link Pizza}s
+     *
      * @return list of {@link Pizza}s in the database
      * @throws Exception ex when loading from database
      */
@@ -47,6 +51,7 @@ public class PizzaEndpoint {
 
     /**
      * List {@link Bestellung}s
+     *
      * @return list of {@link Bestellung}s in the database
      * @throws Exception ex when loading from database
      */
@@ -70,6 +75,7 @@ public class PizzaEndpoint {
 
     /**
      * Print out receipt over all {@link Bestellung}s
+     *
      * @return receipt over all {@link Bestellung}s from the database
      * @throws Exception ex when loading from the database
      */
@@ -105,6 +111,7 @@ public class PizzaEndpoint {
 
     /**
      * List {@link Pizza}s using getters
+     *
      * @return list of {@link Pizza}s in database
      * @throws Exception ex when loading from database
      */
@@ -127,6 +134,7 @@ public class PizzaEndpoint {
 
     /**
      * List {@link Pizza} using ID
+     *
      * @param id ID of the {@link Pizza}
      * @return {@link Pizza} with matching ID in database
      * @throws Exception ex when loading from database
@@ -146,7 +154,8 @@ public class PizzaEndpoint {
 
     /**
      * Create {@link Pizza} using name and price
-     * @param name name of the {@link Pizza}
+     *
+     * @param name  name of the {@link Pizza}
      * @param price price of the {@link Pizza}
      * @return created {@link Pizza} in database
      * @throws Exception ex when creating {@link Pizza}za from database
@@ -168,13 +177,14 @@ public class PizzaEndpoint {
 
     /**
      * Create order using {@link Pizza}, anzahl, surname, firstname, street, streetnumber, livingplace and phonenumber
-     * @param pizza name of the {@link Pizza} (reference)
-     * @param anzahl amount of {@link Pizza}s
-     * @param name name of the {@link Pizza}
+     *
+     * @param pizza   name of the {@link Pizza} (reference)
+     * @param anzahl  amount of {@link Pizza}s
+     * @param name    name of the {@link Pizza}
      * @param vorname firstname of the customer
      * @param strasse street of the customer
-     * @param nummer streetnumber of the customer
-     * @param ort livingplace of the customer
+     * @param nummer  streetnumber of the customer
+     * @param ort     livingplace of the customer
      * @param telefon phonenumber of the customer
      * @return created {@link Bestellung} in database
      * @throws Exception ex when creating {@link Bestellung}
@@ -196,6 +206,7 @@ public class PizzaEndpoint {
 
     /**
      * Delete {@link Pizza} using its ID
+     *
      * @param id ID of the {@link Pizza}
      * @return deleted {@link Pizza} in database
      * @throws Exception ex when deleting {@link Pizza} from database
@@ -215,8 +226,39 @@ public class PizzaEndpoint {
 
     }
 
+    @POST
+    @Path("/users/create")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response createUser(User user) throws Exception {
+
+        PizzaDAO dao = new PizzaDAO();
+
+        if (!dao.isUserExisting(user)) {
+            dao.createUser(user);
+            return Response.ok().build();
+        } else {
+            return Response.serverError().entity("User already existing").build();
+        }
+    }
+
+    @POST
+    @Path("/users/isuservalid")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response loginValid(User user) throws Exception {
+
+        PizzaDAO dao = new PizzaDAO();
+
+        if (dao.isUserExisting(user)) {
+            return Response.ok().build();
+        } else {
+            return Response.serverError().entity("User is not valid or existing").build();
+        }
+    }
+
+
     /**
      * Get Info about the useragent
+     *
      * @param headers {@link HttpHeaders} of the call
      * @return information about the useragent
      */
@@ -235,6 +277,7 @@ public class PizzaEndpoint {
 
     /**
      * Get IPv4-Adress of the Client
+     *
      * @return IPv4-Adress of the Client
      * @throws Exception ex when reading information
      */

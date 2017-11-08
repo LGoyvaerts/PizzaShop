@@ -2,6 +2,7 @@ package ch.ti8m.apprentice.pizzashop;
 
 import ch.ti8m.apprentice.pizzashop.model.Bestellung;
 import ch.ti8m.apprentice.pizzashop.model.Pizza;
+import ch.ti8m.apprentice.pizzashop.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +24,7 @@ import java.util.List;
  */
 public class PizzaDAO {
 
-   private static Logger log = LoggerFactory.getLogger(PizzaDAO.class);
+    private static Logger log = LoggerFactory.getLogger(PizzaDAO.class);
 
     @Resource(name = "jdbc/pizzakurier")
     private DataSource ds;
@@ -40,6 +41,7 @@ public class PizzaDAO {
 
     /**
      * List all {@link Pizza}s in the database
+     *
      * @return list of {@link Pizza}s
      * @throws Exception ex when loading from the database failed
      */
@@ -70,6 +72,7 @@ public class PizzaDAO {
 
     /**
      * List all {@link Bestellung}s in the database
+     *
      * @return list of {@link Bestellung}s
      * @throws Exception ex when loading from the database failed
      */
@@ -98,6 +101,7 @@ public class PizzaDAO {
 
     /**
      * Create new {@link Pizza} on the database
+     *
      * @param pizza {@link Pizza} object
      * @throws Exception ex when creating pizza failed
      */
@@ -117,6 +121,7 @@ public class PizzaDAO {
 
     /**
      * Create new {@link Bestellung} on the database
+     *
      * @param bestellung {@link Bestellung} object
      * @throws Exception ex when creating order failed
      */
@@ -133,6 +138,7 @@ public class PizzaDAO {
 
     /**
      * Find {@link Pizza} in the database using its ID
+     *
      * @return {@link Pizza} with matching ID
      * @throws Exception ex when loading from the database failed
      */
@@ -156,6 +162,7 @@ public class PizzaDAO {
 
     /**
      * Find {@link Pizza} in the database using its name
+     *
      * @param name name of the {@link Pizza}
      * @return {@link Pizza} with matching name
      * @throws Exception ex when loading from the database failed
@@ -182,6 +189,7 @@ public class PizzaDAO {
 
     /**
      * Update {@link Pizza} in the database
+     *
      * @param pizza {@link Pizza} object
      * @throws Exception ex when updating database failed
      */
@@ -200,6 +208,7 @@ public class PizzaDAO {
 
     /**
      * Delete {@link Pizza} in the database
+     *
      * @param pizza {@link Pizza} object
      * @throws Exception ex when deleting database failed
      */
@@ -217,6 +226,7 @@ public class PizzaDAO {
 
     /**
      * Delete {@link Pizza} in the database using its ID
+     *
      * @param index ID of the {@link Pizza}
      * @throws Exception ex when deleting {@link Pizza} from database failed
      */
@@ -235,6 +245,7 @@ public class PizzaDAO {
 
     /**
      * Delete {@link Bestellung} in the database using its ID
+     *
      * @param index ID of the {@link Bestellung}
      * @throws Exception ex when deleting {@link Bestellung} from database failed
      */
@@ -249,5 +260,40 @@ public class PizzaDAO {
 
             }
         }
+    }
+
+
+    public void createUser(User user) throws Exception {
+        try (Connection connection = ds.getConnection()) {
+
+            try (Statement statement = connection.createStatement()) {
+
+                String sql = "INSERT INTO users(email, password) values('" + user.getEmail() + "', '" + user.getPassword() + "');";
+                statement.executeUpdate(sql);
+
+            }
+        }
+    }
+
+
+    public Boolean isUserExisting(User user) throws Exception {
+
+        Boolean temp = false;
+        try (Connection connection = ds.getConnection()) {
+
+            try (Statement statement = connection.createStatement()) {
+
+                String sql = "select email from users where email='" + user.getEmail() + "' and password='" + user.getPassword() + "';";
+                ResultSet rs = statement.executeQuery(sql);
+
+                while (rs.next()) {
+                    String email = rs.getString("email");
+                    if (!email.equals("")) {
+                        temp = true;
+                    }
+                }
+            }
+        }
+        return temp;
     }
 }

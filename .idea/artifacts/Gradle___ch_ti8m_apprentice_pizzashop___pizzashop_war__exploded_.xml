@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/build/libs/exploded/pizzashop.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$">
-        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsZC1EYXRlOiAyMDE3LTA5LTI1IDE0OjQ4OjI2DQpOYW1lOiBjaC50aThtLmFwcHJlbnRpY2UucGl6emFzaG9wDQpWZXJzaW9uOiAxLjAtU05BUFNIT1QNCg0K</manifest>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsZC1EYXRlOiAyMDE3LTExLTA3IDEzOjA0OjE4DQpOYW1lOiBjaC50aThtLmFwcHJlbnRpY2UucGl6emFzaG9wDQpWZXJzaW9uOiAxLjAtU05BUFNIT1QNCg0K</manifest>
       </options>
     </properties>
     <root id="root">

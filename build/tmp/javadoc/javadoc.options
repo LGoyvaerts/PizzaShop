@@ -3,9 +3,10 @@
 -doctitle 'ch.ti8m.apprentice.pizzashop 1.0-SNAPSHOT API'
 -quiet 
 -windowtitle 'ch.ti8m.apprentice.pizzashop 1.0-SNAPSHOT API'
-'/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/JerseyClientGet.java'
+'/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/JerseyClient.java'
 '/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/model/Bestellung.java'
 '/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/model/Pizza.java'
+'/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/model/User.java'
 '/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/OrderServlet.java'
 '/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/OverviewServlet.java'
 '/Users/gol/bin/workspace/PizzaShop/src/main/java/ch/ti8m/apprentice/pizzashop/PizzaDAO.java'
