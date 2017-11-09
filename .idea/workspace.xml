@@ -7,69 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3127f80b-62c6-47b4-8dda-66302cad078f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/model/User.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/ch/ti8m/apprentice/pizzashop/JerseyClientGet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/ch/ti8m/apprentice/pizzashop/JerseyClientGet$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/ch/ti8m/apprentice/pizzashop/JerseyClientGet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/JerseyClientGet.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ch/ti8m/apprentice/pizzashop/PizzaDAO.class" afterPath="$PROJECT_DIR$/build/classes/main/ch/ti8m/apprentice/pizzashop/PizzaDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/webservice/rest/PizzaEndpoint.class" afterPath="$PROJECT_DIR$/build/classes/main/webservice/rest/PizzaEndpoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/pizzashop.war" afterPath="$PROJECT_DIR$/build/libs/pizzashop.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ch_ti8m_apprentice_pizzashop___pizzashop_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ch_ti8m_apprentice_pizzashop___pizzashop_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/OrderServlet.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/OrderServlet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/OverviewServlet.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/OverviewServlet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/PizzaDAO.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/PizzaDAO.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/PizzaDeletedServlet.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/PizzaDeletedServlet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/PizzaServlet.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/PizzaServlet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/Bestellung.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/Bestellung.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/Pizza.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/Pizza.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/package-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/package-summary.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/package-tree.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/model/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/package-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/package-summary.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/package-tree.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/PrintRequest.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/PrintRequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/TemplateUtil.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/TemplateUtil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/package-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/package-summary.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/package-tree.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/ch/ti8m/apprentice/pizzashop/util/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/index-all.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/index.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/serialized-form.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/serialized-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/PizzaEndpoint.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/PizzaEndpoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/WebApp.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/WebApp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/LocalDateConverter.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/LocalDateConverter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/package-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/package-summary.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/package-tree.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/dto/converter/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/package-frame.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/package-summary.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/package-tree.html" afterPath="$PROJECT_DIR$/build/docs/javadoc/webservice/rest/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/javadoc/javadoc.options" afterPath="$PROJECT_DIR$/build/tmp/javadoc/javadoc.options" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/PizzaDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/PizzaDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webservice/rest/PizzaEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/webservice/rest/PizzaEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -151,18 +90,18 @@
       <file leaf-file-name="PizzaEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webservice/rest/PizzaEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="3285">
               <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PizzaDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PizzaDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/PizzaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="295" column="9" lean-forward="true" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+            <state relative-caret-position="316">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1510137421000" expanded="true" signature="1573:1606" ph="SELECT id, n... pizza" />
@@ -186,6 +125,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/model/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -199,7 +148,7 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="165">
               <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -560,7 +509,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/util/PrintRequest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/DeletePizza.template" />
         <option value="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/OverviewServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/OrderServletTemplatePost.template" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Nav.template" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Failure.template" />
@@ -570,6 +518,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/JerseyClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/webservice/rest/PizzaEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/PizzaDAO.java" />
       </list>
     </option>
@@ -639,6 +588,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -806,8 +757,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -1690,7 +1639,9 @@
       <workItem from="1510047567613" duration="2552000" />
       <workItem from="1510056162168" duration="395000" />
       <workItem from="1510131458178" duration="3818000" />
-      <workItem from="1510136729851" duration="657000" />
+      <workItem from="1510136729851" duration="842000" />
+      <workItem from="1510142380248" duration="494000" />
+      <workItem from="1510217484289" duration="654000" />
     </task>
     <servers />
   </component>
@@ -1703,7 +1654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364610000" />
+    <option name="totallyTimeSpent" value="365943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1726,8 +1677,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35470667" sideWeight="0.45735607" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35470667" sideWeight="0.45735607" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.4914712" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19236112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1739,8 +1690,8 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36971486" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36971486" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1851,7 +1802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2030,25 +1980,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/rest/PizzaEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="165">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2056,10 +1990,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webservice/rest/PizzaEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/ti8m/apprentice/pizzashop/PizzaDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="295" column="9" lean-forward="true" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+        <state relative-caret-position="316">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1510137421000" expanded="true" signature="1573:1606" ph="SELECT id, n... pizza" />
@@ -2079,6 +2021,14 @@
             <marker date="1510137421000" expanded="true" signature="9098:9174" ph="select email... users" />
             <marker date="1510137421000" expanded="true" signature="9098:9201" ph="select email... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

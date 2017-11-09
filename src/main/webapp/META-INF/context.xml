@@ -5,7 +5,7 @@
           maxActive="50" maxIdle="30" maxWait="10000"
           username="root" password="Root1234_"
           driverClassName="com.mysql.jdbc.Driver"
-          url="jdbc:mysql://10.10.36.63:3306/pizzakurier?useLegacyDatetimeCode=false&amp;serverTimezone=UTC"
+          url="jdbc:mysql://10.10.36.63:3306/pizzakurier?useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;autoReconnect=true"
           factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"/>
 
 
