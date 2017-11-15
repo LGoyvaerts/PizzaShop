@@ -16,18 +16,36 @@ public class Pizza {
     private String name;
     private float price;
     private int id;
+    private String imagepath;
 
     public Pizza() {
     }
 
     /**
      * Model to use when creating a {@link Pizza}
-     * @param name name of the {@link Pizza}
+     *
+     * @param name  name of the {@link Pizza}
      * @param price price of the {@link Pizza}
      */
+    public Pizza(String name, float price, String imagepath) {
+        this.name = name;
+        this.price = price;
+        this.imagepath = imagepath;
+
+    }
+
     public Pizza(String name, float price) {
         this.name = name;
         this.price = price;
+    }
+
+    @XmlElement(name = "imagepath")
+    public String getImagepath() {
+        return imagepath;
+    }
+
+    public void setImagepath(String imagepath) {
+        this.imagepath = imagepath;
     }
 
     @XmlElement(name = "id")

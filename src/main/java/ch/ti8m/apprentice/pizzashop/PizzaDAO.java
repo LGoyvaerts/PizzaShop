@@ -53,7 +53,7 @@ public class PizzaDAO {
 
                 List<Pizza> pizzas = new LinkedList<>();
 
-                String sql = "SELECT id, name, price FROM pizza;";
+                String sql = "SELECT id, name, price, imagepath FROM pizza;";
                 ResultSet rs = statement.executeQuery(sql);
 
                 while (rs.next()) {
@@ -61,6 +61,7 @@ public class PizzaDAO {
                     pizza.setId(rs.getInt("id"));
                     pizza.setName(rs.getString("name"));
                     pizza.setPrice(rs.getFloat("price"));
+                    pizza.setImagepath(rs.getString("imagepath"));
                     pizzas.add(pizza);
                 }
 

@@ -161,12 +161,12 @@ public class PizzaEndpoint {
      * @throws Exception ex when creating {@link Pizza}za from database
      */
     @POST
-    @Path("/pizzas/{name}/{price}")
+    @Path("/pizzas/{name}/{price}/{imagepath}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Pizza createPizza(@PathParam("name") String name, @PathParam("price") Float price) throws Exception {
+    public Pizza createPizza(@PathParam("name") String name, @PathParam("price") Float price, @PathParam("imagepath") String imagepath) throws Exception {
 
         PizzaDAO dao = new PizzaDAO();
-        Pizza result = new Pizza(name, price);
+        Pizza result = new Pizza(name, price, imagepath);
 
         dao.createPizza(result);
 
