@@ -15,6 +15,8 @@
         <input type="text" name="name">
         Preis:
         <input type="text" name="preis">
+        Bildpfad:
+        <input type:"text" name="imagepath">
         <br>
         <input type="submit" style="float: right">
     </form>
@@ -24,6 +26,7 @@
         <th>ID</th>
         <th>Name</th>
         <th>Preis</th>
+        <th>Image</th>
     </tr>
 
 <#list pizzas as pizza>
@@ -31,6 +34,7 @@
         <td>${pizza.id}</td>
         <td>${pizza.name}</td>
         <td>${pizza.price}</td>
+        <td><img src="${pizza.imagepath}" style="float:right;width:42px;height:42px;"></td>
     </tr>
 </#list>
 </table>

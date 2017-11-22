@@ -112,7 +112,7 @@ public class PizzaDAO {
 
             try (Statement statement = connection.createStatement()) {
 
-                String sql = "insert into pizza (name, price) values ('" + pizza.getName() + "', " + pizza.getPrice() + " )";
+                String sql = "insert into pizza (name, price, imagepath) values ('" + pizza.getName() + "', " + pizza.getPrice() + ", '" + pizza.getImagepath() + "' )";
                 log.debug("SQL: " + sql);
                 statement.executeUpdate(sql);
             }

@@ -34,6 +34,7 @@ public class PizzaServlet extends HttpServlet {
         response.setCharacterEncoding("UTF-8");
         String name = request.getParameter("name");
         String preis = request.getParameter("preis");
+        String imagepath = request.getParameter("imagepath");
         PizzaDAO dao = new PizzaDAO();
 
         String temp = request.getParameter("nummer");
@@ -42,7 +43,7 @@ public class PizzaServlet extends HttpServlet {
         if (!isEmpty(name) && !isEmpty(preis)) {
 
             try {
-                Pizza pizza = new Pizza(name, Float.parseFloat(preis));
+                Pizza pizza = new Pizza(name, Float.parseFloat(preis), imagepath);
                 dao.createPizza(pizza);
                 PrintRequest.print(request);
 
